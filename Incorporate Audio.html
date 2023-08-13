@@ -1,0 +1,39 @@
+<!--Marina De Castro-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+</head>
+<style>
+    body{
+        background-image: url("https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149023491.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+</style>
+<body>
+    <!--Audio for background, shows controls for pausing and starting-->
+    <audio controls>
+        <source src="lofi-chill-medium-version-159456.mp3" type="audio/mp3">
+    </audio>
+    <h1>Enter a Palindrome</h1>
+    <p>A Palindrome is a word or phrase that is the same backwords and forwards.</p>
+    <p>Hint: Entering certain words may have a picture appear!</p>
+    <!--User enters the Palindrome and submits it to a function-->
+        <input id="palindrome" type="text">
+        <button id="submit" onclick="checkPalindrome()">Submit</button>
+        <br>
+    <!--Images that will show when a certain if else statement is called from the input-->
+    <div id="images">
+        <img id="racecar" src="">
+        <img id="tacocat" src="">
+        <img id="cheers" src="">
+        <img id="no" src="">
+    </div>
+    
+</body>
+<script src="Incorporate Audio.js"></script>
+</html>
